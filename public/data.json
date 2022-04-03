@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "picture": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "review": "Very good laptop",
+        "name": "Grey Mac Cole",
+        "rating": "5 Star"
+    },
+    {
+        "id": "2",
+        "picture": "https://images.unsplash.com/photo-1615750185825-fc85c6aba18d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "review": "Awesome battery support",
+        "name": "Mac Solo Therm",
+        "rating": "5 Star"
+    },
+    {
+        "id": "3",
+        "picture": "https://images.unsplash.com/photo-1612425626229-632fab8bfc02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80",
+        "review": "Price should be more resonable",
+        "name": "Thermal Bright",
+        "rating": "5 Star"
+    },
+    {
+        "id": "4",
+        "picture": "https://images.unsplash.com/photo-1533740566848-5f7d3e04e3d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80",
+        "review": "Ultra slim display is my favourite",
+        "name": "Macbook Air",
+        "rating": "5 Star"
+    },
+    {
+        "id": "5",
+        "picture": "https://images.unsplash.com/photo-1527442965590-ffcc54675537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "review": "SSD and extra Ram compatible laptop",
+        "name": "Apple wirless",
+        "rating": "5 Star"
+    },
+    {
+        "id": "6",
+        "picture": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "review": "For Graphic works it is very helpful",
+        "name": "Silver Macbook",
+        "rating": "5 Star"
+    }
+]
