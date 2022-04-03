@@ -1,0 +1,12 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    align-items: left;
+}
+
+.client-review {
+    margin-top: 200px;
+}
