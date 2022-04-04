@@ -7,7 +7,7 @@ const Reviews = (props) => {
         <div className='single-review'>
             <img src={picture} height={100} width={100} alt="" />
             <h6>Name: {name} </h6>
-            <p> {clientReview} </p>
+            <p>Review: {clientReview} </p>
             <span> {rating} </span>
         </div>
     );
