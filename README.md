@@ -3,6 +3,7 @@
 Live Site : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
 Markup : * Custom Hook used
+         * rechart used for chart, some modified chart included
         
               * Nested bullet
                   
