@@ -10,5 +10,14 @@ nav {
 .link-container {
     display: flex;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 450px;
+    font-size: 20px;
+}
+
+.link-container a {
+    padding: 10px;
+}
+
+.link-container a:hover {
+    color: tomato;
 }

@@ -10,35 +10,35 @@
         "id": "2",
         "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Awesome battery support",
-        "name": "Mac Solo",
+        "name": "Graham John",
         "rating": "5 Star"
     },
     {
         "id": "3",
-        "picture": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Good display, slim but processor core can be more poweful",
-        "name": "Thermal Bright",
+        "name": "Timon Suiger",
         "rating": "5 Star"
     },
     {
         "id": "4",
-        "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "picture": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "clientReview": "Great, after powefull game no heat issues",
-        "name": "Macbook Air",
+        "name": "Rat Kings",
         "rating": "5 Star"
     },
     {
         "id": "5",
         "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Waiting for white display background",
-        "name": "Apple wirless",
+        "name": "Jonathon Stive",
         "rating": "5 Star"
     },
     {
         "id": "6",
-        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "picture": "https://images.unsplash.com/photo-1617791636474-cad64fefa7f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=754&q=80",
         "clientReview": "Super performance in NFS Premium suit",
-        "name": "Silver Macbook",
+        "name": "Steve Mark",
         "rating": "5 Star"
     }
 ]
