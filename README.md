@@ -2,10 +2,10 @@
 
 Live Site : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
-Markup : ** React custom Hook used
-            # rechart used for chart, some modified chart included
-            # Bootstrap and vanila css used
-            ## Review based website
+Features : * React router based 
+              * Nested bullet
+                  
+          * React custom Hook used
 
 <!-- ## Available Scripts
 
