@@ -2,10 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.heading-details {
+    font-size: 18px;
 }
 
 .text-container {
     align-items: left;
+}
+
+.image-container img {
+    border-radius: 20px;
 }
 
 .client-review {

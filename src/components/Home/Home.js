@@ -14,16 +14,17 @@ const Home = () => {
         <div className='container'>
             <div className='home-container'>
                 <div className='text-container px-5'>
-                    <h1 className='text-lg'>Ultra Laptop</h1>
-                    <p>Get immersed in your content, movies and games with vivid, true-to-life color on the new 3.5K (3456 x2160) OLED display option. Perfect black provides phenomenal contrast ratio (100,000:1) so content comes alive with breathtaking detail especially in dark areas. Wide color gamut (100% DCI-P3) is more true to life, great for content consumption.</p>
-                    <Button variant='success'>Details</Button>
+                    <p className='heading'>Ultra Laptop</p>
+                    <p className='heading'>Generation Exceed..</p>
+                    <p className='heading-details'>Get immersed in your content, movies and games with vivid, true-to-life color on the new 3.5K (3456 x2160) OLED display option. Perfect black provides phenomenal contrast ratio (100,000:1) so content comes alive with breathtaking detail especially in dark areas. Wide color gamut (100% DCI-P3) is more true to life, great for content consumption.</p>
+                    <Button variant='success btn-lg px-4'>Details</Button>
                 </div>
                 <div className='image-container'>
-                    <img src={laptop} height={500} width={500} alt="" />
+                    <img src={laptop} height={500} width={500} alt="laptop" />
                 </div>
             </div>
-            <div className='client-review'>
-                <h2>Happy Client Review</h2>
+            <div className='client-review py-5 text-center'>
+                <h1 className='fw-bold p-5'>Happy Client Review</h1>
                 <div className='review-container text-center'>
                     {
                         sliceReview.map(review => <Reviews
@@ -32,8 +33,8 @@ const Home = () => {
                         ></Reviews>)
                     }
                 </div>
-                <div className='buttonReview'>
-                    <Button onClick={() => navigate('/reviews')} variant='success'>All Client Review</Button>
+                <div className='buttonReview mt-5'>
+                    <Button onClick={() => navigate('/reviews')} variant='success btn-lg px-4'>All Client Review</Button>
                 </div>
             </div>
         </div>

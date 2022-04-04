@@ -4,9 +4,9 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Navbar = () => {
     return (
-        <nav className='container'>
+        <nav className='header-container bg-success sticky-top'>
             <div className='logo-container'>
-                <h1>Trust-Site</h1>
+                <h4 className='fw-bold'>Trust-Site</h4>
                 {/* <p>Never miss user experience</p> */}
             </div>
             <div className='link-container'>

@@ -7,7 +7,7 @@ const ReviewPage = () => {
     const [reviews, setReviews] = useReviews();
     return (
         <div className="container">
-            <div className='review-container text-center'>
+            <div className='review-container text-center mt-5'>
                 {
                     reviews.map(review => <Reviews
                         key={review.id}
