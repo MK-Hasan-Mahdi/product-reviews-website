@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Trust-Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
 <!-- ## Available Scripts
 
