@@ -1,6 +1,7 @@
 .home-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .text-container {
@@ -15,4 +16,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+}
+
+.buttonReview {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
 }

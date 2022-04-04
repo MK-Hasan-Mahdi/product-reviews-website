@@ -1,5 +1,6 @@
 import React from 'react';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
+import './Dashboard.css';
 
 const Dashboard = () => {
     const data = [
@@ -92,56 +93,64 @@ const Dashboard = () => {
 
     ]
     return (
-        <div className='container'>
-            <h5>Month wise sell</h5>
-            <LineChart width={600} height={300} data={data} >
-                <Line type="monotone" dataKey="investment" stroke="#8884d8" />
-                <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
-                <CartesianGrid stroke="#ccc" />
-                <XAxis dataKey="month" />
-                <YAxis></YAxis>
-                <Tooltip />
-            </LineChart>
-            <br />
-            <h5>Investment vs Revenue</h5>
-            <AreaChart width={600}
-                height={300}
-                data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Area type="monotone" dataKey="revenue" stackId="1" stroke="#8884d8" fill="#8884d8" />
-                <Area type="monotone" dataKey="sell" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-                <Area type="monotone" dataKey="investment" stackId="1" stroke="#ffc658" fill="#ffc658" />
-            </AreaChart>
-            <br />
-            <h5>Investment vs Revenue</h5>
-            <PieChart width={600} height={400}>
-                <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
-                <Pie data={data2} dataKey="sell" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
-                <Tooltip></Tooltip>
-            </PieChart>
-            <h5>Investment vs Revenue</h5>
-            <BarChart
-                width={500}
-                height={300}
-                data={data}
-                margin={{
-                    top: 5,
-                    right: 30,
-                    left: 20,
-                    bottom: 5,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="investment" fill="#8884d8" />
-                <Bar dataKey="revenue" fill="#82ca9d" />
-            </BarChart>
+        <div className='container chart-container'>
+
+            <div>
+                <h5>Month wise sell</h5>
+                <LineChart width={600} height={300} data={data} >
+                    <Line type="monotone" dataKey="investment" stroke="#8884d8" />
+                    <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
+                    <CartesianGrid stroke="#ccc" />
+                    <XAxis dataKey="month" />
+                    <YAxis></YAxis>
+                    <Tooltip />
+                </LineChart>
+            </div>
+            <div>
+                <h5>Investment vs Revenue</h5>
+                <AreaChart width={600}
+                    height={300}
+                    data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Area type="monotone" dataKey="revenue" stackId="1" stroke="#8884d8" fill="#8884d8" />
+                    <Area type="monotone" dataKey="sell" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+                    <Area type="monotone" dataKey="investment" stackId="1" stroke="#ffc658" fill="#ffc658" />
+                </AreaChart>
+            </div>
+
+            <div>
+                <h5>Investment vs Revenue</h5>
+                <PieChart width={600} height={400}>
+                    <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <Pie data={data2} dataKey="sell" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+                    <Tooltip></Tooltip>
+                </PieChart>
+            </div>
+            <div>
+                <h5>Investment vs Revenue</h5>
+                <BarChart
+                    width={500}
+                    height={300}
+                    data={data}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="investment" fill="#8884d8" />
+                    <Bar dataKey="revenue" fill="#82ca9d" />
+                </BarChart>
+            </div>
         </div>
     );
 };
