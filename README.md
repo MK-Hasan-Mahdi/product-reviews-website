@@ -3,9 +3,9 @@
 Live Site Link : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
 ### Features : 
-### **React router used for routing menu address** 
+### ***React router used for routing menu address*** 
+### *React custom Hook used*
 ### **React custom Hook used**
-### ***React custom Hook used***
 
 <!-- ## Available Scripts
 
