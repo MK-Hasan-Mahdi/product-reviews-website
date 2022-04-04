@@ -93,10 +93,10 @@ const Dashboard = () => {
 
     ]
     return (
-        <div className='container chart-container'>
+        <div className='container chart-container mt-5'>
 
             <div>
-                <h5>Month wise sell</h5>
+                <h5 className='text-center'>Month wise sell</h5>
                 <LineChart width={600} height={300} data={data} >
                     <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                     <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
@@ -106,8 +106,8 @@ const Dashboard = () => {
                     <Tooltip />
                 </LineChart>
             </div>
-            <div>
-                <h5>Investment vs Revenue</h5>
+            <div className='mx-2 px-5'>
+                <h5 className='text-center'>Investment vs Revenue</h5>
                 <AreaChart width={600}
                     height={300}
                     data={data}>
@@ -121,19 +121,19 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
 
-            <div>
-                <h5>Investment vs Revenue</h5>
-                <PieChart width={600} height={400}>
+            <div className='mt-5'>
+                <h5 className='text-center'>Investment vs Revenue</h5>
+                <PieChart width={600} height={300}>
                     <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                     <Pie data={data2} dataKey="sell" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
                     <Tooltip></Tooltip>
                 </PieChart>
             </div>
-            <div>
-                <h5>Investment vs Revenue</h5>
+            <div className='mt-5 mx-2 px-5'>
+                <h5 className='text-center'>Investment vs Revenue</h5>
                 <BarChart
-                    width={500}
-                    height={300}
+                    width={630}
+                    height={350}
                     data={data}
                     margin={{
                         top: 5,
