@@ -1,43 +1,43 @@
 [
     {
         "id": "1",
-        "picture": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "review": "Very good laptop",
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "clientReview": "Very good laptop",
         "name": "Grey Mac Cole",
         "rating": "5 Star"
     },
     {
         "id": "2",
-        "picture": "https://images.unsplash.com/photo-1615750185825-fc85c6aba18d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-        "review": "Awesome battery support",
-        "name": "Mac Solo Therm",
+        "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "clientReview": "Awesome battery support",
+        "name": "Mac Solo",
         "rating": "5 Star"
     },
     {
         "id": "3",
-        "picture": "https://images.unsplash.com/photo-1612425626229-632fab8bfc02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80",
-        "review": "Price should be more resonable",
+        "picture": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "clientReview": "Good display, slim but processor core can be more poweful",
         "name": "Thermal Bright",
         "rating": "5 Star"
     },
     {
         "id": "4",
-        "picture": "https://images.unsplash.com/photo-1533740566848-5f7d3e04e3d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80",
-        "review": "Ultra slim display is my favourite",
+        "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "clientReview": "Great, after powefull game no heat issues",
         "name": "Macbook Air",
         "rating": "5 Star"
     },
     {
         "id": "5",
-        "picture": "https://images.unsplash.com/photo-1527442965590-ffcc54675537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "review": "SSD and extra Ram compatible laptop",
+        "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "clientReview": "Waiting for white display background",
         "name": "Apple wirless",
         "rating": "5 Star"
     },
     {
         "id": "6",
-        "picture": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "review": "For Graphic works it is very helpful",
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "clientReview": "Super performance in NFS Premium suit",
         "name": "Silver Macbook",
         "rating": "5 Star"
     }

@@ -1,0 +1,9 @@
+.single-review {
+    height: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.single-review img {
+    border-radius: 50%;
+}

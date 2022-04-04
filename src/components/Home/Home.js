@@ -2,8 +2,11 @@ import React from 'react';
 import './Home.css';
 import laptop from '../images/laptop.jpg';
 import { Button } from 'react-bootstrap';
+import useReviews from '../../hook/useReviews';
+import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
     return (
         <div className='container'>
             <div className='home-container'>
@@ -17,7 +20,16 @@ const Home = () => {
                 </div>
             </div>
             <div className='client-review'>
-                <h2>Client Review</h2>
+                <h2>Happy Client Review</h2>
+                <div className='review-container'>
+                    {
+                        reviews.map(review => <Reviews
+                            key={review.id}
+                            review={review}
+                        ></Reviews>)
+                    }
+                </div>
+                <Button variant='success'>All Client Review</Button>
             </div>
         </div>
     );
