@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsStarFill } from 'react-icons/bs';
 import './Reviews.css';
 
 const Reviews = (props) => {
@@ -9,7 +10,8 @@ const Reviews = (props) => {
             <div className='review-details mt-5'>
                 <h6>{name} </h6>
                 <p>Review: {clientReview} </p>
-                <span> {rating} </span>
+                <p>Ratings: {rating}</p>
+                <span > <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> </span>
             </div>
         </div>
     );

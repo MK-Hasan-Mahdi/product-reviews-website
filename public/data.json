@@ -4,41 +4,41 @@
         "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Great laptop website! Have many categories with superb collection of best laptops with high specs at very Reasonable price range. I recommend it to all.",
         "name": "Grey Mac Cole",
-        "rating": "5 Star"
+        "rating": "5"
     },
     {
         "id": "2",
         "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Awesome battery support, Really fantastic laptop website for top rated laptops at very suitable prices. Best laptop guide website no doubt.",
         "name": "Graham John",
-        "rating": "5 Star"
+        "rating": "5"
     },
     {
         "id": "3",
         "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Waiting for white display background, Good display, slim but processor core can be more poweful. Contain details information more than I want.",
         "name": "Timon Suiger",
-        "rating": "5 Star"
+        "rating": "5"
     },
     {
         "id": "4",
         "picture": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "clientReview": "Great, after powefull game no heat issues",
         "name": "Rat Kings",
-        "rating": "5 Star"
+        "rating": "5"
     },
     {
         "id": "5",
         "picture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
         "clientReview": "Waiting for white display background, Good display, slim but processor core can be more poweful",
         "name": "Jonathon Stive",
-        "rating": "5 Star"
+        "rating": "5"
     },
     {
         "id": "6",
         "picture": "https://images.unsplash.com/photo-1617791636474-cad64fefa7f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=754&q=80",
         "clientReview": "Super performance in NFS Premium suit",
         "name": "Steve Mark",
-        "rating": "5 Star"
+        "rating": "5"
     }
 ]
