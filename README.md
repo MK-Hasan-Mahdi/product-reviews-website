@@ -2,6 +2,11 @@
 
 Live Site : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
+Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
 <!-- ## Available Scripts
 
 In the project directory, you can run:
