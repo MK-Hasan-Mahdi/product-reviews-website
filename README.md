@@ -2,10 +2,10 @@
 
 Live Site : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
-Features : * React router based 
-              * Nested bullet
+Features : - React router based 
+              - Nested bullet
                   
-          * React custom Hook used
+          - React custom Hook used
 
 <!-- ## Available Scripts
 
