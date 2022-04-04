@@ -1,10 +1,11 @@
 # Trust-Site
 
-Live Site : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
+Live Site Link : [Trust-Site](https://zippy-cocada-a44b16.netlify.app/).
 
-Features : **React router used**
-           *Nested bullet*
-           *React custom Hook used*
+### Features : 
+**React router used for routing menu address** 
+**React custom Hook used**
+***React custom Hook used***
 
 <!-- ## Available Scripts
 
