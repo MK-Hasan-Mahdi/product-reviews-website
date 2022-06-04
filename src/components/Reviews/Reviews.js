@@ -11,7 +11,7 @@ const Reviews = (props) => {
                 <h6>{name} </h6>
                 <p>Review: {clientReview} </p>
                 <p>Ratings: {rating}</p>
-                <span > <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> </span>
+                <span> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> <BsStarFill className='ratings'></BsStarFill> </span>
             </div>
         </div>
     );

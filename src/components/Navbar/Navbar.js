@@ -6,7 +6,8 @@ const Navbar = () => {
     return (
         <nav className='header-container bg-success sticky-top'>
             <div className='logo-container'>
-                <h4 className='fw-bold'>Trust-Site</h4>
+                {/* <CustomLink to='/home'> <h4 className='fw-bold'>Trust-Site</h4></CustomLink> */}
+                <a href="/home"><h4 className='fw-bold'>Trust-Site</h4></a>
                 {/* <p>Never miss user experience</p> */}
             </div>
             <div className='link-container'>
